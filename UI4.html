@@ -1,0 +1,33 @@
+---
+# front matter tells Jekyll to process Liquid
+author: sergio
+---
+
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta charset="utf-8">
+    <title>{{ page.author }}</title>
+</head>
+<body>
+{% include navigation.html %}
+<p>
+    <img src="/assets/images/smashelorbanner.jpg" alt="">
+</p>
+
+<ol class="rounded-list">
+    {% for item in site.data.UI4.players %}
+    <li><a href="">{{ item.tag }}</a></li>
+    {% endfor %}
+</ol>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ site.data.UI4.links.videoId }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><a href={{ site.data.UI4.links.slippi }}>Slippi Files</a></p>
+<p><a href={{ site.data.UI4.links.bracket }}>Bracket</a></p>
+<p><a href="https://www.youtube.com/watch?v={{ site.data.UI4.links.videoId }}">Highlights</a></p>
+
+
+
+
+</body>
+</html>
