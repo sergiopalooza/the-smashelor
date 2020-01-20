@@ -1,0 +1,26 @@
+---
+# front matter tells Jekyll to process Liquid
+author: sergio
+---
+
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta charset="utf-8">
+    <title>{{ page.author }}</title>
+</head>
+<body>
+<img src="/assets/images/smashelorbanner.jpg" alt="">
+<p>
+    January 10th
+</p>
+<ol class="rounded-list">
+    {% for item in site.data.ranking.players %}
+    <li><a href="">{{ item.tag }}</a></li>
+    {% endfor %}
+</ol>
+
+
+</body>
+</html>
