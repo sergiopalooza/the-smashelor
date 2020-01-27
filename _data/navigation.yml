@@ -1,4 +1,6 @@
 - name: Home
   link: /
+  icon: fas fa-home
 - name: Episodes
   link: /episodes.html
+  icon: fas fa-tv

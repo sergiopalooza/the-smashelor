@@ -1,0 +1,9 @@
+- name: Stream
+  link: https://www.twitch.tv/thesmashelor
+  icon: fab fa-twitch
+- name: Youtube
+  link: https://www.youtube.com/channel/UCHPAtCVwnI_AWUlZpOzTRdw
+  icon: fab fa-youtube
+- name: Brackets
+  link: https://challonge.com/users/thesmashelor/tournaments
+  icon: fas fa-trophy

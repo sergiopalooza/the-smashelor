@@ -7,15 +7,12 @@ author: sergio
 <html>
 <head>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/883a62eb94.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title>{{ page.author }}</title>
 </head>
 <body>
 {% include navigation.html %}
-<p>
-    <img src="/assets/images/smashelorbanner.jpg" alt="">
-</p>
-
 <ol class="rounded-list">
     {% for item in site.data.UI4.players %}
     <li><a href="">{{ item.tag }}</a></li>
