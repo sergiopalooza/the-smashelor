@@ -1,0 +1,35 @@
+{
+  "date": "January 31st",
+  "title": "Episode 1",
+  "links": {
+    "slippi": "https://drive.google.com/drive/folders/1CKdrqG1z5lobFwya0VZDcgwZDIehx-3n?usp=sharing",
+    "bracket": "https://challonge.com/SE1EP1",
+    "videoId": "WAjLu0ysT8E"
+  },
+  "players": [
+    {
+      "tag": "Mekk"
+    },
+    {
+      "tag": "Pleasantries"
+    },
+    {
+      "tag": "Unsure"
+    },
+    {
+      "tag": "TechDeath"
+    },
+    {
+      "tag": "Ober"
+    },
+    {
+      "tag": "Pleeba"
+    },
+    {
+      "tag": "Larfen"
+    },
+    {
+      "tag": "Webs"
+    }
+  ]
+}
