@@ -1,0 +1,28 @@
+---
+# front matter tells Jekyll to process Liquid
+---
+
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/883a62eb94.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+{% include navigation.html %}
+<ol class="rounded-list test-class">
+    {% for item in site.data.S1E2.players %}
+    <li><a href="">{{ item.tag }}</a></li>
+    {% endfor %}
+</ol>
+<iframe class="clear" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ site.data.S1E2.links.videoId }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><a href={{ site.data.S1E2.links.slippi }}>Slippi Files</a></p>
+<p><a href={{ site.data.S1E2.links.bracket }}>Bracket</a></p>
+<p><a href="https://www.youtube.com/watch?v={{ site.data.S1E2.links.videoId }}">Highlights</a></p>
+
+
+
+
+</body>
+</html>
